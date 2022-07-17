@@ -9,3 +9,4 @@ ft=st.number_input("average parking per month",50,200,step=5)
 op=model.predict([f,s,t,ft])
 if st.button('PREDICT'):
   st.title(op[0])
+    
